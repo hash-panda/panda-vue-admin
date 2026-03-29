@@ -1,0 +1,46 @@
+{
+  "name": "panda-vue-admin",
+  "version": "1.0.0",
+  "description": "A Vue.js admin dashboard built with Ant Design Vue components.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hash-panda/panda-vue-admin.git"
+  },
+  "keywords": [
+    "vue",
+    "admin",
+    "dashboard",
+    "ant-design-vue"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hash-panda/panda-vue-admin/issues"
+  },
+  "homepage": "https://github.com/hash-panda/panda-vue-admin#readme",
+  "dependencies": {
+    "@vueuse/core": "^14.2.1",
+    "ant-design-vue": "^4.2.6",
+    "echarts": "^6.0.0",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.31",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "eslint": "^10.1.0",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.3",
+    "vite-plugin-eslint": "^1.8.1",
+    "vue-tsc": "^3.2.6"
+  }
+}
