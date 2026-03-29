@@ -795,5 +795,4 @@ export function useAIAgent() {
 本技术架构文档详细描述了基于AI Agent驱动的前端技术框架设计，通过模块化的架构设计和现代化的技术选型，为项目提供了强大的技术支撑。AI Agent的引入将显著提升开发效率和用户体验，为智能化前端开发奠定基础。
 
 该架构具有良好的扩展性、可维护性和性能表现，能够满足项目的长期发展需求。通过分阶段实施，可以逐步验证和完善各模块功能，确保项目的成功交付。
-  setConcurrency(max: number): void;
-  getStats(): SchedulerStats;
+
