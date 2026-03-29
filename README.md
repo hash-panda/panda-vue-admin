@@ -1,60 +1,89 @@
 # Panda Vue Admin
 
-A comprehensive admin dashboard solution built with Vue 3, TypeScript, and Ant Design Vue components.
+一个基于 Vue 3 + TypeScript + Vite 的现代化后台管理系统框架。
 
-## Description
+## 技术栈
 
-Panda Vue Admin is a modern, feature-rich admin dashboard framework designed to accelerate the development of admin interfaces. It provides a solid foundation with pre-built components, utilities, and best practices out of the box.
+- **Vue 3** - 渐进式 JavaScript 框架
+- **TypeScript** - JavaScript 的超集，提供类型安全
+- **Vite** - 快速的前端构建工具
+- **Ant Design Vue** - 企业级 UI 设计语言
+- **Vue Router** - 官方路由管理器
+- **Pinia** - 现代状态管理库
 
-## ✨ Features
+## 开发环境要求
 
-- 🎨 **Modern UI** - Built with Ant Design Vue components
-- 🔧 **Vue 3 + TypeScript** - Type-safe development with the latest Vue.js
-- 📱 **Responsive Design** - Works seamlessly across all devices
-- 🎯 **Comprehensive Documentation** - Complete guides and API references
-- 🔐 **Authentication Ready** - Built-in authentication system
-- 📊 **Data Management** - Advanced data tables, forms, and filters
-- 🎨 **Theme Customization** - Easy theming and branding options
-- 🚀 **Developer Friendly** - Well-structured codebase with best practices
+- Node.js >= 18
+- npm >= 8
 
-## 📖 Documentation
+## 快速开始
 
-For complete documentation, please visit our [documentation center](./docs/README.md):
-
-- [Quick Start Guide](./docs/quick-start.md) - Get up and running quickly
-- [API Documentation](./docs/api/README.md) - Comprehensive API reference
-- [Components](./docs/components/README.md) - Available components and usage
-- [Development Guide](./docs/development.md) - Contributing and development workflow
-- [Examples](./docs/examples/README.md) - Practical code examples
-- [FAQ](./docs/faq.md) - Frequently asked questions
-
-## 🚀 Quick Start
-
-### Prerequisites
-
-- Node.js (v16 or higher)
-- npm, yarn, or pnpm
-
-### Installation
+### 安装依赖
 
 ```bash
-# Clone the repository
-git clone https://github.com/hash-panda/panda-vue-admin.git
-cd panda-vue-admin
-
-# Install dependencies
 npm install
+```
 
-# Start development server
+### 启动开发服务器
+
+```bash
 npm run dev
 ```
 
-The development server will start at `http://localhost:3000`.
+### 构建生产版本
 
-## 🤝 Contributing
+```bash
+npm run build
+```
 
-We welcome contributions! Please see our [Development Guide](./docs/development.md) for details on how to get started.
+### 类型检查
 
-## 📄 License
+```bash
+npm run type-check
+```
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### 预览构建结果
+
+```bash
+npm run preview
+```
+
+## 项目结构
+
+```
+panda-vue-admin/
+├── src/
+│   ├── views/          # 页面组件
+│   ├── router/         # 路由配置
+│   ├── main.ts         # 应用入口文件
+│   └── App.vue         # 根组件
+├── public/             # 静态资源
+├── index.html          # HTML 模板
+├── package.json        # 项目配置
+├── tsconfig.json       # TypeScript 配置
+├── vite.config.ts      # Vite 配置
+└── README.md           # 项目说明
+```
+
+## 特性
+
+- ✅ Vue 3 Composition API
+- ✅ TypeScript 支持
+- ✅ Vite 快速构建
+- ✅ Ant Design Vue UI 框架
+- ✅ 响应式布局
+- ✅ 路由系统
+- ✅ 状态管理 (Pinia)
+
+## 开发中
+
+- [ ] 更多页面组件
+- [ ] 状态管理集成
+- [ ] API 接口管理
+- [ ] 用户认证系统
+- [ ] 主题定制
+- [ ] 国际化支持
+
+## 许可证
+
+MIT
