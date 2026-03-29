@@ -796,3 +796,12 @@ export function useAIAgent() {
 
 该架构具有良好的扩展性、可维护性和性能表现，能够满足项目的长期发展需求。通过分阶段实施，可以逐步验证和完善各模块功能，确保项目的成功交付。
 
+
+// Agent类型定义
+interface Agent {
+  id: string;
+  name: string;
+  type: AgentType;
+  status: AgentStatus;
+  capabilities: string[];
+  execute(task: Task): Promise<Result>;
