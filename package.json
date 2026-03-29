@@ -1,0 +1,42 @@
+{
+  "name": "@hash-panda/ai-agent-interface",
+  "version": "1.0.0",
+  "description": "AI Agent Interface Specification for Panda Vue Admin",
+  "main": "types/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage",
+    "lint": "eslint . --ext .ts,.js",
+    "type-check": "tsc --noEmit",
+    "validate": "npm run type-check && npm run test",
+    "docs:generate": "typedoc types/index.ts --out docs/api-reference"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "typescript",
+    "api",
+    "specification"
+  ],
+  "author": "Panda Vue Admin Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "typedoc": "^0.25.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "types",
+    "docs",
+    "README.md"
+  ]
+}
